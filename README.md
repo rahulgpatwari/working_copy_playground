@@ -45,4 +45,6 @@ When you're in a file within Working Copy, it will show you all the commits you 
 
 To see the contents of the file as it currently stands (after all the commits), then you move the slider from "Changes" to "Files". You can see the file in a plain text editor, however I can't seem to edit it there. 
 
+Okay, that's how I edit the file on the local repository. Before you even go into any of the commits, there's a button at the bottom called "Content". Also down there are "changes" and "status." Let's see if I can push this up to the remote repository. 
+
 
