@@ -34,7 +34,7 @@ remote-repository --git pull--> local-files
 Some important terms: 
 
 - **add**: from the terminal, you add files to a stage using the add command. From there they can be committed to a change that we'll later push from the local repository (on the ipad) to the remote repository (on github.com). 
-- **commit**: when you create a new file or add changes to an existing one, these are committed to the remote repository (if created remotely). Locally, I think it works a little bit differently. The files are saved, and then can be added to staging. From staging, they can be committed. That way, multiple files (all the files on the stage) can be committed together. These commits are then pushed and pulled back and forth between the remote and local repository as needed.
+- **commit**: when you create a new file or add changes to an existing one, these are committed to the remote repository (if created remotely). Locally, I think it works a little bit differently. The files are saved, and then can be added to staging. From staging, they can be committed. That way, multiple files (all the files on the stage) can be committed together. These commits are then pushed and pulled back and forth between the remote and local repository as needed. On github.com it looks like files, once changed, are immediately committed. There's no staging. 
 - **pull**: getting committed changes from the remote repository (github.com) down to the local repository (ipad)
     - **fetch**: in Working Copy, getting the changes from the remote repository (github.com) from the cloud, but not mixing it in with the local repository.
     - **merge**: mixing in the fetched changes from the remote repository with the local repository (on iPad)
