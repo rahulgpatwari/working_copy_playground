@@ -41,3 +41,8 @@ Some important terms:
     - a fetch and merge together equals a pull
 - **push**: getting committed changes from the local repository (ipad) up to the remote repository (github.com). This is done in Working Copy using the Sync button. Why don't they just call it Push, though the word "sync" is more intuitive, it's not the standard git terminology. 
 
+When you're in a file within Working Copy, it will show you all the commits you had. Selecting one of them will highlight the differences between the commit and the previous version of the file with things you added highlighted in green and things you deleted highlighted in red. 
+
+To see the contents of the file as it currently stands (after all the commits), then you move the slider from "Changes" to "Files". You can see the file in a plain text editor, however I can't seem to edit it there. 
+
+
